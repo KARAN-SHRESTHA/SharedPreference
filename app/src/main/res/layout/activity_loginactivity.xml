@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".Loginactivity">
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Username"
+        android:textAlignment="center"
+        android:id="@+id/etUsername"
+        android:textSize="30dp"
+        android:layout_margin="20dp"
+        />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Password"
+        android:textAlignment="center"
+        android:id="@+id/etPassword"
+        android:inputType="textPassword"
+        android:textSize="30dp"
+        android:layout_margin="20dp"
+        />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Sign In"
+        android:textSize="30dp"
+        android:id="@+id/btn"
+        android:layout_margin="20dp"
+
+        />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Create Account"
+        android:textSize="30dp"
+        android:id="@+id/btnCreate"
+        android:layout_margin="20dp"
+
+        />
+
+</LinearLayout>
